@@ -13,3 +13,4 @@ else if($b > $a && $b > $c){
 else{
     echo " $c is the maximum number amaong these 3";
 }
+?>
