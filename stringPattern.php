@@ -64,5 +64,14 @@ $string = "Hello, PHP";
 $newString = str_repeat($string, 3);
 echo $newString . "\n";
 
+// str_expode() function
+$string5 = "Hello, PHP, Java, Python";
+$words = explode(",", $string5);
+print_r($words);
+
+// str_split() function
+$string = "Hello, PHP";
+$chars = str_split($string);
+print_r($chars);
 
 ?>
