@@ -53,4 +53,16 @@ echo $substring . "\n";
 $name = "Sunny kumar Saurya";
 $substring = strstr($name, "kumar");
 echo $substring . "\n";
+
+// stristr function
+$name = "Sunny kumar Saurya";
+$substring = stristr($name, "kumar");
+echo $substring . "\n";
+
+// str_repeat() function
+$string = "Hello, PHP";
+$newString = str_repeat($string, 3);
+echo $newString . "\n";
+
+
 ?>
