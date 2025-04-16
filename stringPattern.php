@@ -74,4 +74,23 @@ $string = "Hello, PHP";
 $chars = str_split($string);
 print_r($chars);
 
+// preg_grep function
+$word = ["PHP", "Java", "Python"];
+$pattern = "/P/";
+$matches = preg_grep($pattern, $word);
+print_r($matches);
+
+//preg_grep_invert function
+$word = ["PHP", "Java", "Python"];
+$pattern = "/P/";
+$matches = preg_grep($pattern, $word, PREG_GREP_INVERT);
+print_r($matches);
+
+// prag_match_all function 
+$pattern = "/P/";
+$string = "Hello, Java, Python";
+preg_match_all($pattern, $string, $matches);
+print_r($matches);
+
+
 ?>
